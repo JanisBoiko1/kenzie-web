@@ -1,0 +1,59 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #101011;
+    font-family: 'Raleway';
+    /*   color:white; */
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333440;
+}
+
+.app {
+    position: relative;
+    background-color: #a8bfb6;
+}
+
+.container {
+    position: absolute;
+    background-color: #a8bfb6;
+    padding: 2em;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+.remove {
+    border: none;
+    background-color: #f4d58d;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#item-button {
+    cursor: pointer;
+    border: none;
+    padding: 0.5em;
+    background-color: #f4d58d;
+}
+
+input {
+    border: none;
+    padding: 0.5em;
+}
