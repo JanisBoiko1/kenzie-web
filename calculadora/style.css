@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://images.pexels.com/photos/1092885/pexels-photo-1092885.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container1 {
+    border: 2px solid black;
+    padding: 5%;
+    margin: 20px;
+    color: white;
+    background-color: #333440;
+}
+
+#container2 {
+    background-color: #333440;
+    padding: 5%;
+    color: white;
+}
+
+.botao-calcular {
+    width: 100%;
+    font-size: 1rem;
+    background-color: #BF498A;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+.botao-calcular:hover {
+    background-color: #A63F78;
+    color: white;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
